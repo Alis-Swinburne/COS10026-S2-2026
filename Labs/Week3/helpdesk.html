@@ -29,20 +29,20 @@
             <fieldset>
                 <legend>Student Details</legend>
                 <p><label for="student">Student ID</label>
-                    <input type="text" name="student" id="student" required pattern="[0-9]{7,10}"/>
+                    <input type="text" name="student" id="student" required pattern="[0-9]{7,10}">
                 </p>
             
                 <table>
                     <tr>
                         <td>
                             <p><label for="f_name">Given Name</label>
-                            <input type="text" name="f_name" id="f_name" required pattern="[A-Za-z]+"/>
+                            <input type="text" name="f_name" id="f_name" required pattern="[A-Za-z]+">
                             </p>  
                         </td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                         <td>
                             <p><label for="l_name">Family Name</label>
-                            <input type="text" name="l_name" id="l_name" required pattern="[A-Za-z]+"/>
+                            <input type="text" name="l_name" id="l_name" required pattern="[A-Za-z]+">
                             </p>
                         </td>
                     </tr>
@@ -51,11 +51,11 @@
 
             <fieldset>
                 <legend>Your Unit</legend>
-                <p><input type="radio" name="unit" id="COS10011" value="COS10011" required/>
+                <p><input type="radio" name="unit" id="COS10011" value="COS10011" required>
                     <label for="COS10011">COS10011</label>
-                    <input type="radio" name="unit" id="COS60004" value="COS60004" required/>
+                    <input type="radio" name="unit" id="COS60004" value="COS60004" required>
                     <label for="COS60004">COS60004</label>
-                    <input type="radio" name="unit" id="COS60007" value="COS60007" required/>
+                    <input type="radio" name="unit" id="COS60007" value="COS60007" required>
                     <label for="COS60007">COS60007</label>
                 
                 </p>
@@ -72,36 +72,33 @@
             <fieldset>
                 <legend>Issue</legend>
                 <p>
-                    <label><input type="checkbox" name="language" value="html" checked/> HTML</label> &nbsp;&nbsp;&nbsp;
-                    <label><input type="checkbox" name="language" value="CSS"/> CSS</label> &nbsp;&nbsp;&nbsp;
-                    <label><input type="checkbox" name="language" value="JavaScript"/> JavaScript</label> &nbsp;&nbsp;&nbsp;
-                    <label><input type="checkbox" name="language" value="PHP"/> PHP</label> &nbsp;&nbsp;&nbsp;
-                    <label><input type="checkbox" name="language" value="MySQL"/> MySQL</label> &nbsp;&nbsp;&nbsp;
+                    <label><input type="checkbox" name="language" value="html" checked> HTML</label> &nbsp;&nbsp;&nbsp;
+                    <label><input type="checkbox" name="language" value="CSS"> CSS</label> &nbsp;&nbsp;&nbsp;
+                    <label><input type="checkbox" name="language" value="JavaScript"> JavaScript</label> &nbsp;&nbsp;&nbsp;
+                    <label><input type="checkbox" name="language" value="PHP"> PHP</label> &nbsp;&nbsp;&nbsp;
+                    <label><input type="checkbox" name="language" value="MySQL"> MySQL</label> &nbsp;&nbsp;&nbsp;
                 </p>
 
-                <form action="/submit-comment" method="POST">
-                    <p>
-                        <label for="desc-of-issue">Description of Issue</label><br>
-                        <textarea id="desc-of-issue" name="issue" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
-                    </p>
-                </form>
+                <p>
+                    <label for="desc-of-issue">Description of Issue</label><br>
+                    <textarea id="desc-of-issue" name="issue" rows="4" cols="40" placeholder="Write description of your problem here..."></textarea>
+                </p>
             </fieldset>
 
             <fieldset>
                 <legend>Preferred Date/Time</legend>
                 <p><label for="date">Date</label>
-                    <input type="date" name="date" id="date" placeholder="dd-mm-yyyy" maxlength="10" size="10">
+                    <input type="date" name="date" id="date">
                 </p>
 
                 <p><label for="time">Time</label>
-                    <input type="time" name="time" id="time" placeholder="00:00" maxlength="5" size="5">
+                    <input type="time" name="time" id="time">
                 </p>
-
             </fieldset>
         </form>
 
-        <input type="submit" value="Book"/>
-        <input type="reset" value="Reset Form"/>
+        <input type="submit" value="Book">
+        <input type="reset" value="Reset Form">
     </main>
 
 </body>
